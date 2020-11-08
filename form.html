@@ -6,7 +6,40 @@
   <meta charset="utf-8">
 
   <title>FORM</title>
+  <style>
+input[type=text], select {
+  width:100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing:border-box;
+}
 
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+</style>
   </head>
 
 
@@ -22,56 +55,63 @@
   <h2> PLEASE FILL IN THIS FORM </h2>
 
   <form>
-    <label>FIRSTNAME:</label>
-    <input type="text"; placeholder="Enter your first name "/>
-    <br><br>
-
-
-<label>SURNAME</label>
-<input type="text" placeholder="Enter your surname" />
+    <label>SURNAME</label>
+<input type="text" id="lname" name="surname" placeholder="Your Surname..">
 <br><br>
 
 
 <label>ENTER EMAIL ADRESS</label>
-<input type="email" placeholder=" Enter your Email address " />
+
+<input type="text" id="lname" name="email" placeholder="Your email Address..">
+
+
+
+
+
+
 <br><br>
 
 <label>ENTER PASSWORD</label>
-<input type="password" placeholder=" Enter your Password" />
+
+<input type="text" id="lname" name="password" placeholder="Your Password..">
+
 <br><br>
 
 
 <label>TELEPHONE</label>
-<input type="tel" placeholder="enter your telephone number" />
+
+<input type="text" id="lname" name="Telephonel" placeholder="Your email Address..">
+
 <br><br>
 
 
 <label>NAME OF SCHOOL</label>
-<input type="text"placeholder="Enter your school" />
+ <input type="text" id="lname" name="Schooll" placeholder="Your email Address..">
+
 <br><br>
 
 <Label>DATE OF BIRTH</label>
-<input type="date"placeholder="Enter your Date of birth" />
+
+<input type="text" id="Date" name="Date of birth" placeholder="Your email Address..">
+
 <br><br>
 
 <Label>FAVOURITE COLOR</label>
-<input type="color"placeholder="Enter your Favourite color" />
+<input type="text" id="colour" name="email" placeholder="Your email Address..">
+
 <br><br>
 
 
 <Label>RESIDENTIAL ADDRESS</label>
-<input type="text"placeholder="Enter address"  />
+
+<input type="text" id="Text" name="email" placeholder="Your email Address..">
+
 <br><br>
 
 
-<label>UPLOAD YOUR CERTIFICATE:</label>
-<input type="file" />
 
-<p>Tell us about yourself</p>
-<textarea></textarea>
-<br />
-
-
+<label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
 <input type="submit" value="SUBMIT"/>
 
